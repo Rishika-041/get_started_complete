@@ -2,9 +2,9 @@ const express = require('express');
 const router = express.Router();
 
 // controllers
-const { saveProducts, savePage, saveProductsFromSearch, savePageFromSearch } = require('../controller/product');
+const { saveProducts, savePage } = require('../controller/product');
 
 router.post('/products-from-history', saveProducts, savePage);
-router.post('/products-from-search', saveProductsFromSearch, savePageFromSearch);
+//router.post('/products-from-search', saveProductsFromSearch, savePageFromSearch);
 
 module.exports = router; 
