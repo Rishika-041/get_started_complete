@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
-	"name": "My Amazon History",
-	"description": "Scrape Amazon Purchase History and Amazon Search Results",
+	"name": "My Amazon",
+	"description": "Amazon price drop",
 	"version": "0.01",
 	"content_scripts": [
 		{
